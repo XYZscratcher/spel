@@ -1,0 +1,10 @@
+[package]
+name = "spel"
+version = "0.1.3"
+edition = "2021"
+description = "A fast spell checker for everyone."
+homepage = "http://github.com/xyzscratcher/spel"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.1.11", features = ["derive"] }
